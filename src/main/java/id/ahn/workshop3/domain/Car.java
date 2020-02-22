@@ -12,6 +12,12 @@ import javax.persistence.Id;
 
 @Entity
 public class Car {
+
+    /*postgres
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+
+     */
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;

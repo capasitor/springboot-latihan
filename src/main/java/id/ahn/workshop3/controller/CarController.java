@@ -3,6 +3,8 @@ package id.ahn.workshop3.controller;
 import id.ahn.workshop3.domain.Car;
 import id.ahn.workshop3.repository.CarRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
@@ -33,9 +35,19 @@ public class CarController {
         return carRepository.findById(Long.parseLong(id));
     }
 
+    /*
     @PostMapping
     public Car addNewCar(@RequestBody Car car){
         return carRepository.save(car);
+    }
+
+     */
+
+    @PostMapping
+    public ResponseEntity<Car> addNewCar(@RequestBody Car car){
+        Car car1 =  carRepository.save(car);
+
+        return new ResponseEntity<>(car1, HttpStatus.OK);
     }
 
     @DeleteMapping("/{id}")

@@ -14,6 +14,9 @@ public class Workshop3Application {
 		SpringApplication.run(Workshop3Application.class, args);
 	}
 
+
+	//postgres tanpa @bean
+
 	@Bean
 	public CommandLineRunner demo(CarRepository repository){
 		return (args) -> {

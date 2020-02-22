@@ -1,6 +1,6 @@
-/Users/macbookpro/Desktop/workspacejvm/workshop3/src/main/java/id/ahn/workshop3/Catatan.java
-/Users/macbookpro/Desktop/workspacejvm/workshop3/src/main/java/id/ahn/workshop3/domain/Car.java
-/Users/macbookpro/Desktop/workspacejvm/workshop3/src/main/java/id/ahn/workshop3/Workshop3Application.java
-/Users/macbookpro/Desktop/workspacejvm/workshop3/src/main/java/id/ahn/workshop3/repository/CarRepository.java
-/Users/macbookpro/Desktop/workspacejvm/workshop3/src/main/java/id/ahn/workshop3/controller/CarController.java
-/Users/macbookpro/Desktop/workspacejvm/workshop3/src/main/java/id/ahn/workshop3/controller/IndexController.java
+/Users/macbookpro/Desktop/workspacejvm/springboot-latihan/src/main/java/id/ahn/workshop3/Catatan.java
+/Users/macbookpro/Desktop/workspacejvm/springboot-latihan/src/main/java/id/ahn/workshop3/controller/IndexController.java
+/Users/macbookpro/Desktop/workspacejvm/springboot-latihan/src/main/java/id/ahn/workshop3/domain/Car.java
+/Users/macbookpro/Desktop/workspacejvm/springboot-latihan/src/main/java/id/ahn/workshop3/controller/CarController.java
+/Users/macbookpro/Desktop/workspacejvm/springboot-latihan/src/main/java/id/ahn/workshop3/repository/CarRepository.java
+/Users/macbookpro/Desktop/workspacejvm/springboot-latihan/src/main/java/id/ahn/workshop3/Workshop3Application.java
